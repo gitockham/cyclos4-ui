@@ -10,14 +10,14 @@ import { DefaultDashboardResolver } from 'environments/default-dashboard-resolve
 
 // The root URL for the API. Either 'api' (without slashes) when using a proxy, or the full URL
 // (with protocol) to the Cyclos backend, ending with /api.
-const API_URL = 'http://localhost:8888/api';
+const API_URL = 'http://172.18.144.43:8080/cyclos/api';
 
 // Application title
-const APP_TITLE = 'Cyclos Local';
+const APP_TITLE = 'La Roue';
 // Application title on small devices (constrained space)
-const APP_TITLE_SMALL = 'Cyclos';
+const APP_TITLE_SMALL = 'La Roue';
 // The application title displayed on the title bar inside the menu on small devices
-const APP_TITLE_MENU = 'Cyclos menu';
+const APP_TITLE_MENU = 'Menu la Roue';
 
 // Available choices for number of results in a search. The default is the smallest one
 const SEARCH_PAGE_SIZES = [40, 100, 200];
